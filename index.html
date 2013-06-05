@@ -1,0 +1,188 @@
+// Matt Nowakowski
+// MIU
+// term 1306
+// Project 1
+
+
+
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>My load outs</title>
+
+       
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      
+        <meta http-equiv="cleartype" content="on">
+
+      
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+
+      
+        <script src="js/libs/modernizr.custom.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+
+    </head>
+    <body>
+
+        <div data-role="page" id="home" data-theme="a">
+
+            <div data-role="header" data-position="fixed">
+
+                <center>
+                <p><a href="#home">My Load outs</a></p>
+                </center>
+                
+            </div>
+
+            <div data-role="content">
+                <center>
+                <p><a href="#registration" id-name = "addNew"><img src="img/register.svg" width="200px" height="200px"</a></p>
+                </center>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <div data-role="collapsible" data-collapsed="true" data-inset="true">
+                        <h2>Weapon Descriptions</h2>
+                        <div data-role="collapsible-set">
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>Pistols</h2>
+                                <p>A pistol is primarily a secondary weapon that can be wielded in one hand or dual wielded commonly called akimbo .</p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>SMG</h2>
+                                <p>a primary weapon that has high mobility best used at short to medium distances.</p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>Shotgun</h2>
+                                <p>A primary weapon thats often a one shot kill at close range. best used at close distances</p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>Assault rifle</h2>
+                                <p>A Primary weapon that has good accuracy and mobility best used at medium to long range distances.</p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>RPG</h2>
+                                <p>A RPG is a secondary weapon best suited for taking out air craft.</p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>sniper rifle</h2>
+                                <p>A primary weapon used best at long ranges.</p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>shield</h2>
+                                <p>A ballistic shield that protects you gun fire.</p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>knife</h2>
+                                <p>standard issue combat knife for quick melee kills. theres also a ballistics knife thats capable of launching the blade a good distance.</p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>grenade</h2>
+                                <p>A grenade is a hand thrown explosive. theres the traditional frag grenade, semtex grenades that sticks to surfaces, and concussion grenades  </p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>LMG</h2>
+                                <p>A powerful light machine gun with a high rate of fire and high capacity magazine. capable of wall banging enemies behind cover.</p>
+                            </div>
+                            <div data-role="collapsible" data-collapsed="true">
+                                <h2>launcher</h2>
+                                <p>typically mounted under the barrel of a shotgun or assault rifle it uses 40mm explosive rounds .</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <label for="search-basic">Search Input:</label>
+            <input type="search" name="search" id="search-basic" value="" data-mini="true" />
+
+                <h3>Create Load out</h3>
+                <ul data-role="listview" data-inset="true" data-filter="false">
+                    <li data-filtertext="" border="0" width="35" height="35" alt="Browse"></a></li>
+                    <li><a href="" id="Pistol" border="0" width="35" height="35" alt="Browse Pistol">Browse Pistol</a></li>
+                    <li><a href="" id="SMG" border="0" width="35" height="35" alt="Browse SMGs">Browse SMGs</a></li>
+                    <li><a href="" id="Shotgun" border="0" width="35" height="35" alt="Browse Shotguns">Browse Shotguns</a></li>
+                    <li><a href="" id="Assault rifle" border="0" width="35" height="35" alt="Browse ARs">Browse ARs</a></li>
+                    <li><a href="" id="RPG" border="0" width="35" height="35" alt="Browse RPGs">Browse RPGs</a></li>
+                    <li><a href="" id="Sniper rifle" border="0" width="35" height="35" alt="Browse Snipers">Browse Snipers</a></li>
+                    <li><a href="" id="Shield" border="0" width="35" height="35" alt="Browse Shields">Browse Shields</a></li>
+                    <li><a href="" id="Knife" border="0" width="35" height="35" alt="Browse Knives">Browse Knives</a></li>
+                    <li><a href="" id="Grenade" border="0" width="35" height="35" alt="Browse Grenadess">Browse Grenades</a></li>
+                    <li><a href="" id="LMG" border="0" width="35" height="35" alt="Browse LMGs">Browse LMGS</a></li>
+                    <li><a href="" id="Launcher" border="0" width="35" height="35" alt="Browse Launchers">Launchers</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div data-role="page" id="registration" data-add-back-btn="true" data-theme="a">
+
+            <div data-role="header" data-position="fixed">
+
+                <center>
+                <p><a href="#home">My Load outs</a></p>
+                </center>
+
+            </div>
+
+            <div data-role="content">
+                <center>
+                    <h1>Create a load out</h1>
+                </center>
+                <nav>
+
+                    <a href="#clear" id="clearData"  data-ajax="false" data-role="button" data-mini="true"  data-inline="true" >Clear Load outs</a>
+                    <a href="#items" id="displayData"  data-ajax="false" data-role="button" data-mini="true"  data-inline="true" >Show Load outs</a>
+                    <a href="index.html" id="addNew"  data-ajax="false" data-role="button" data-mini="true" data-inline="true" style="display:none;">Add New Load out</a>
+                </nav>
+                <form action="#" method="post" id="weaponForm" data-ajax="false">
+                    <fieldset>
+                        <center>
+                            <p>* Fields are required.</p>
+                        </center>
+                        <span><ul id="errors"></ul></span>
+                        <ul id="fields">
+                            <li>
+                                <label for="lon">*Load out Name:</label><input type="text" id="lon"/>
+                            </li>
+                            <li id="select"><label for="weapon">*Weapon Category:</label><br /></li>
+                            <li data-role="controlgroup" data-mini="true">
+                                <label>Class selection:</label>
+                            	<label for="Assault">Assault</label>
+                                <input type="radio" name="sclass" id="Assault" value="Assault" />
+                            	 <label for="Sniper">Sniper</label>
+                                <input type="radio" name="sclass" id="Sniper" value="Sniper"  />
+                          	  <label for="Support">Support</label>
+                                <input type="radio" name="sclass" id="Support" value="Support"  />
+                            </li>
+                            <li>
+                                <label>Used often</label></br>
+                                <input type="checkbox" name="checkbox-0" id="fav" class="custom" data-mini="true" />
+                                <label for="fav">Yes</label>
+                            </li>
+                            <li>
+                                <label for="rate">rating:</label>
+                                <input type="range" name="slider" id="rate" value="0" min="0" max="10" data-highlight="true" data-mini="true" />
+                            </li>
+                            <li>
+                                <label for="comments">comments.:</label></br><textarea id="comments"></textarea>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <input type = "submit" value = "save Load out" id = "saveData"/>
+                </form>
+                </br>
+
+      
+        <script type="text/javascript" src="js/JSON.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
